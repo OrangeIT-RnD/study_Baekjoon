@@ -38,5 +38,21 @@
 		  "*/"
 		],
 		"description": "백준 온라인 알고리즘 풀이 기본틀"
+	  },
+	  
+	"baekjoon-start-cs": {
+		"scope": "csharp",
+		"prefix": "baekjoon-start",
+		"body": [
+		  "// BOJ Problem no.${RELATIVE_FILEPATH/(.[0-9]*)..+$/$1/}",
+		  "// author : thKwon(th.kwon29@gmail.com) - $CURRENT_YEAR/$CURRENT_MONTH/${CURRENT_DATE}",
+		  "",
+		  "string input = Console.ReadLine();",
+		  "string[] inputArray = input.Split();",
+		  "int number = int.Parse(inputArray[0]);",
+		  "",
+		  "Console.WriteLine(\"Hello World!\");"
+		],
+		"description": "백준 온라인 알고리즘 풀이 기본틀"
 	  }
 }
