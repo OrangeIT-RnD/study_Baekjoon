@@ -54,5 +54,32 @@
 		  "Console.WriteLine(\"Hello World!\");"
 		],
 		"description": "백준 온라인 알고리즘 풀이 기본틀"
-	  }
+	  },
+	  
+	  "baekjoon-start-go": {
+		  "scope": "go",
+		  "prefix": "baekjoon-start",
+		  "body": [
+			"// BOJ Problem no.$TM_FILENAME_BASE",
+			"// author : thKwon(th.kwon29@gmail.com) - $CURRENT_YEAR/$CURRENT_MONTH/${CURRENT_DATE}",
+			"",
+			"package main",
+			"",
+			"import \"fmt\"",
+			"", 
+			"func main() {",
+			"    var a int",
+			"    fmt.Scanf(\"%d\", &a)",
+			"    fmt.Printf(\"%d\\n\", a)",
+			"}",
+			"",
+			"/*",
+			"attemps",
+			"    - 1차시도 : ",
+			"note",
+			"    - ",
+			"*/"
+		  ],
+		  "description": "백준 온라인 알고리즘 풀이 기본틀"
+		}
 }
